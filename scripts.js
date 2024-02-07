@@ -15,7 +15,7 @@ if (hourOfDay == undefined && minuteOfDay == undefined) {
   const taxAsDecimal = (salary * 8) / 100;                    // % is NAN, therefore I used basic maths, converted 8% to numerical value which is 8/100.
   const startingAfterTax = salary * 1 - taxAsDecimal;
   const balance = startingAfterTax - transport - food - rent; // Replaced start with startingaftertax
-  console.log(taxAsDecimal);//test
-  console.log(startingAfterTax);//test
-  console.log(balance.toFixed(2));
+  //console.log(taxAsDecimal);//test
+  //console.log(startingAfterTax);//test
+  console.log('R',balance.toFixed(2));
 }
